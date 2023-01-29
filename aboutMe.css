@@ -1,0 +1,116 @@
+
+a:link
+{
+    color: black;
+}
+a:visited
+{
+    color: black;
+}
+a:hover
+{
+    color: black;
+}
+#header1
+{
+    margin-bottom: -100px;
+}
+#name   
+{
+    color: black;
+    font-size: 30px;
+    position: relative;
+    left: 60px;
+    bottom: -20px;
+    font-family: sans-serif;
+}
+#home
+{
+    color: white;
+    position: relative;
+    left: 900px;
+    top: -40px;
+    font-family: sans-serif;
+}
+#aboutMe
+{
+    color: white;
+    position: relative;
+    left:990px;
+    top: -78px;
+    font-family: sans-serif;
+}
+#projects
+{
+    color: white;
+    position: relative;
+    left:1100px;
+    top: -116px;
+    font-family: sans-serif;
+}
+#abtme
+{
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    background-color: beige;
+}
+#bar
+{
+    color: maroon;
+    background-color: maroon;
+    position: relative;
+    left: 320px;
+    width: 600px;
+}
+#photo
+{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 320px;
+    bottom: -30px;
+    border-radius: 25px;
+
+}
+#info1
+{
+    position: relative;
+    left: 600px;
+    top: -240px;
+    font-family: sans-serif;
+}
+#info2
+{
+    position: relative;
+    left: 350px;
+    top: -200px;
+    font-family: sans-serif;
+}
+#section1
+{
+    background-color: beige;
+    position: relative;
+    padding-top: 30px;
+}
+#contactTitle
+{
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    top: -235px;
+}
+#contactInfo
+{
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    top: -235px;
+}
+footer
+{
+    color: beige;
+    background-color: beige;
+}
