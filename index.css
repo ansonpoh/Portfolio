@@ -1,116 +1,113 @@
-
-a:link
+#name
 {
     color: black;
-}
-a:visited
-{
-    color: black;
-}
-a:hover
-{
-    color: black;
-}
-#header1
-{
-    margin-bottom: -100px;
-}
-#name   
-{
-    color: black;
+    position: absolute;
+    top: 30px;
+    left: 80px;
     font-size: 30px;
-    position: relative;
-    left: 60px;
-    bottom: -20px;
     font-family: sans-serif;
-}
-#home
-{
-    color: white;
-    position: relative;
-    left: 900px;
-    top: -40px;
-    font-family: sans-serif;
-}
-#aboutMe
-{
-    color: white;
-    position: relative;
-    left:990px;
-    top: -78px;
-    font-family: sans-serif;
-}
-#projects
-{
-    color: white;
-    position: relative;
-    left:1100px;
-    top: -116px;
-    font-family: sans-serif;
-}
-#abtme
-{
-    font-family: sans-serif;
-    text-align: center;
-    color: black;
-    background-color: beige;
-}
-#bar
-{
-    color: maroon;
-    background-color: maroon;
-    position: relative;
-    left: 320px;
-    width: 600px;
 }
 #photo
 {
-    width: 250px;
-    height: 250px;
-    position: relative;
-    left: 320px;
-    bottom: -30px;
-    border-radius: 25px;
-
+    display: flex;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    border-radius: 50%;
 }
-#info1
+#intro1
 {
-    position: relative;
-    left: 600px;
-    top: -240px;
-    font-family: sans-serif;
-}
-#info2
-{
-    position: relative;
-    left: 350px;
-    top: -200px;
-    font-family: sans-serif;
+    display: flex;
+    color: black;
+    position: absolute;
+    top:190px;
+    left: 450px;
+    font-size: 35px;
 }
 #section1
 {
-    background-color: beige;
-    position: relative;
-    padding-top: 30px;
+    position:absolute;
+    background-color:#D5C2A5;
+    height: 1300px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+#abtme
+{
+    display: flex;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    text-align: center;
+}
+#bar1
+{
+    display: flex;
+    color: maroon;
+    background-color: maroon;
+    position: absolute;
+    left: 320px;
+    top: 595px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+#info1
+{
+    display: flex;
+    position:absolute;
+    left: 390px;
+    top: 650px;
+    font-size:20px;
+    font-family: sans-serif;
+    text-align: center;
 }
 #contactTitle
 {
     font-family: sans-serif;
-    text-align: center;
-    position: relative;
-    left: 200px;
-    top: -235px;
+    position: absolute;
+    left: 950px;
+    top: 1056px;
 }
 #contactInfo
 {
-    font-family: sans-serif;
     text-align: center;
-    position: relative;
-    left: 200px;
-    top: -235px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 870px;
+    top: 1100px;
 }
-footer
+#bar2
 {
-    color: beige;
-    background-color: beige;
+    color: #D5C2A5;
+    background-color: maroon;
+    position: absolute;
+    width: 500px;
+    top: 1060px;
+    left: 375px;
+    border-radius: 10px;
+    height: 5px;
+}
+#projects
+{
+    font-family: sans-serif;
+    position: absolute;
+    left: 200px;
+    top: 1060px;
+}
+#projectInfo
+{
+    text-align: left;
+    font-family: sans-serif;
+    position: absolute;
+    left: 180px;
+    top: 1100px;
 }
