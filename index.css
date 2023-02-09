@@ -4,7 +4,7 @@ html
 }
 body
 {
-    background-color:rgb(41, 69, 101) ;
+    background-color: darkslategrey ;
     color: white;
 }
 #name
@@ -45,11 +45,12 @@ body
     font-family: sans-serif;
     color: white;
     position: relative;
+    top: 50%;
 }
-#bar1
+#bar
 {
-    color: rgb(41, 69, 101);
-    background-color: beige;;
+    color: darkslategray;
+    background-color: white;;
     position: relative;
     width: auto;
     height: 10px;
@@ -66,22 +67,14 @@ body
     font-family: sans-serif;
     position: relative;
     font-size: 35px;
+    top: 50%;
 }
 #projectTitle
 {
     font-family: sans-serif;
     position: relative;
     font-size: 35px;
-}
-#bar2
-{
-    color: rgb(41, 69, 101);
-    background-color: beige;;
-    position: relative;
-    width: auto;
-    border-radius: 10px;
-    height: 5px;
-    top: 30%;
+    top: 50%;
 }
 #contactInfo
 {
@@ -95,9 +88,67 @@ body
     position: relative;
     font-size:25px;
 }
+#fccPhoto
+{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+#pythonPhoto
+{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+#googlePhoto
+{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
 .container
 {
     width: 70%;
+}
+
+.parallax1{
+    background-image: url("https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg?auto=compress&cs=tinysrgb&w=1200") ;
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.parallax2{
+    background-image: url("https://img.freepik.com/free-photo/aerial-view-green-forest_144627-45271.jpg?w=2000&t=st=1675915284~exp=1675915884~hmac=30545ae80a4e6aff847e62a29e7bfceaa74056ec4ecb2274e748dd18b5516d60") ;
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.parallax3{
+    background-image: url("https://img.freepik.com/free-photo/mesmerizing-scenery-green-mountains-with-cloudy-sky-surface_181624-27189.jpg?w=2000&t=st=1675916463~exp=1675917063~hmac=96804ae2c615f8ad917a46facfc454d0e7259a8300400ea354b7371b0e72a18a") ;
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.parallax4{
+    background-image: url("https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=60") ;
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 [class*="col-"] {
