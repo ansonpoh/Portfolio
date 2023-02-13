@@ -16,11 +16,13 @@ body
 }
 #photo
 {
-    width: 600px;
-    height: 600px;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
     position: relative;
     border-radius: 50%;
-    top: -10vh;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #intro1
 {
@@ -91,17 +93,18 @@ body
 #gameImage1
 {
     position: relative;
-    width: 300px;
-    height: 500px;
-    top: -15vh;
+    width: 50%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #gameImage2
 {
     position: relative;
-    width: 300px;
-    height: 500px;
-    top: -15vh;
-    left: -35vh;
+    width: 50%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .container
 {
