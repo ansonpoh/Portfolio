@@ -103,7 +103,7 @@ body
 }
 
 .parallax1{
-    background-image: url("https://img.freepik.com/free-photo/natural-green-leaves-with-defocused-background_23-2148282555.jpg?w=2000&t=st=1676340783~exp=1676341383~hmac=7e52c96c798619a376a6ef7dde1c33b42a26ff7da684749a2546e5c8b1472cf5") ;
+    background-image: url(imageFolder/portfolioBackground1.jpg);
     min-height: 500px;
     background-attachment:fixed;
     background-position: center;
@@ -113,7 +113,7 @@ body
 }
 
 .parallax2{
-    background-image: url("https://img.freepik.com/free-vector/foliage-background_53876-112884.jpg?w=2000&t=st=1676340817~exp=1676341417~hmac=89ec3f5957bcf040471ee3dcbe96bc5610c4b0c2712e5f6eaaaee49aa69425f8") ;
+    background-image: url(imageFolder/portfolioBackground2.jpg) ;
     min-height: 500px;
     background-attachment:fixed;
     background-position: center;
@@ -124,7 +124,7 @@ body
 }
 
 .parallax3{
-    background-image: url("https://img.freepik.com/free-photo/branch-green-leaves-black-background_23-2147836991.jpg?w=1380&t=st=1676343334~exp=1676343934~hmac=0591d82582d7d9c6dfb527de2090fb59b3bf81433efd7e9ee57853aa04d94981") ;
+    background-image: url(imageFolder/portfolioBackground3.avif) ;
     min-height: 500px;
     background-attachment:fixed;
     background-position: center;
@@ -134,7 +134,7 @@ body
 }
 
 .parallax4{
-    background-image: url("https://img.freepik.com/free-vector/foliage-background_53876-112886.jpg?w=2000&t=st=1676340899~exp=1676341499~hmac=e10d4897c06e46d640fc046e98f7b26d7acb5126093ae1883f54e8c0e8b7e4df") ;
+    background-image: url(imageFolder/portfolioBackground4.avif) ;
     min-height: 500px;
     background-attachment:fixed;
     background-position: center;
