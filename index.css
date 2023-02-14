@@ -12,13 +12,13 @@ body
     color: white;
     position: relative;
     font-size: 50px;
-    font-family: sans-serif;
+    font-family: "lucida handwriting";
 }
 #photo
 {
     max-width: 100%;
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    height: 60%;
     position: relative;
     border-radius: 50%;
     background-repeat: no-repeat;
@@ -35,7 +35,6 @@ body
 {
     position:absolute;
     background-color:#D5C2A5;
-    height: 1300px;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -93,18 +92,10 @@ body
 #gameImage1
 {
     position: relative;
-    width: 50%;
-    height: 90%;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 #gameImage2
 {
     position: relative;
-    width: 50%;
-    height: 90%;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 .container
 {
@@ -112,7 +103,7 @@ body
 }
 
 .parallax1{
-    background-image: url("https://images.unsplash.com/photo-1476231682828-37e571bc172f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80") ;
+    background-image: url("https://img.freepik.com/free-photo/natural-green-leaves-with-defocused-background_23-2148282555.jpg?w=2000&t=st=1676340783~exp=1676341383~hmac=7e52c96c798619a376a6ef7dde1c33b42a26ff7da684749a2546e5c8b1472cf5") ;
     min-height: 500px;
     background-attachment:fixed;
     background-position: center;
@@ -122,17 +113,18 @@ body
 }
 
 .parallax2{
-    background-image: url("https://img.freepik.com/free-photo/aerial-view-green-forest_144627-45271.jpg?w=2000&t=st=1676256261~exp=1676256861~hmac=4398196759be1096106bd270c4ed3a0c4efd48f94c8245c4cf9496731fcb710c") ;
+    background-image: url("https://img.freepik.com/free-vector/foliage-background_53876-112884.jpg?w=2000&t=st=1676340817~exp=1676341417~hmac=89ec3f5957bcf040471ee3dcbe96bc5610c4b0c2712e5f6eaaaee49aa69425f8") ;
     min-height: 500px;
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+
 }
 
 .parallax3{
-    background-image: url("https://img.freepik.com/free-photo/mesmerizing-scenery-green-mountains-with-cloudy-sky-surface_181624-27189.jpg?w=1800&t=st=1676256288~exp=1676256888~hmac=db9c81265fa03a15ff0e6e9f32049a1d01effae9a3ac67e37dfb97457186d9cc") ;
+    background-image: url("https://img.freepik.com/free-photo/branch-green-leaves-black-background_23-2147836991.jpg?w=1380&t=st=1676343334~exp=1676343934~hmac=0591d82582d7d9c6dfb527de2090fb59b3bf81433efd7e9ee57853aa04d94981") ;
     min-height: 500px;
     background-attachment:fixed;
     background-position: center;
@@ -142,7 +134,7 @@ body
 }
 
 .parallax4{
-    background-image: url("https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=60") ;
+    background-image: url("https://img.freepik.com/free-vector/foliage-background_53876-112886.jpg?w=2000&t=st=1676340899~exp=1676341499~hmac=e10d4897c06e46d640fc046e98f7b26d7acb5126093ae1883f54e8c0e8b7e4df") ;
     min-height: 500px;
     background-attachment:fixed;
     background-position: center;
