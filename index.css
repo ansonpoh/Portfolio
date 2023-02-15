@@ -97,6 +97,15 @@ body
 {
     position: relative;
 }
+#googleImage1
+{
+    position: relative;
+}
+#googleImage2
+{
+    position: relative;
+}
+
 .container
 {
     width: 70%;
